@@ -9,7 +9,7 @@ Button.prototype = {
         	this.$element.click(function() {
             		alert(self.text);
         	});
-        this.$element.appendTo($('body'));
+        	this.$element.appendTo($('body'));
 	}
 }
 var btn1 = new Button('Hello!');
